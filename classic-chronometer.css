@@ -1,0 +1,31 @@
+body {
+    font-size: 30px;
+}
+
+div.main-div {
+    width: 600px;
+    text-align: center;
+    margin: 50px auto;
+    background-color: cornflowerblue;
+    border-radius: 30px;
+}
+
+h1.title, p.chronometer {
+    padding: 25px 0 25px 0;
+    text-transform: uppercase;
+}
+
+input {
+    margin: 25px 0 25px 0;
+    background-color:coral;
+    text-transform: uppercase;
+}
+
+input:hover {
+    background-color: chocolate;
+}
+
+input:active {
+    background-color: coral;
+    transform: translateY(4px);
+}
